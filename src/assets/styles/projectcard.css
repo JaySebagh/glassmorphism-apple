@@ -1,0 +1,48 @@
+.project-card-container{
+    background: rgba(255,255,255, 0.05);
+	border: 4px solid #091921;
+	backdrop-filter: blur(15px);
+	border: 1px solid rgba(255,255,255, 0.2);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.upper-card img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.upper-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-card{
+    margin-left: 10px;
+}
+
+.repo-button, .demo-button{
+    display: inline-block;
+    padding: 14px 22px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+}
+
+.repo-button:hover, .demo-button:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
+
+.repo-button{
+    margin-right: 3px;
+}
+
+.demo-button{
+    margin-left: 3px;
+}

@@ -38,6 +38,8 @@
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border-left: none;
+  word-wrap: break-word;
+  overflow:auto;
 }
 
 .left-panel h1{
